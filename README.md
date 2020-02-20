@@ -102,7 +102,33 @@ The experiment configuration was as exposed in the next scheme. The equipment wa
 
 ## Data Outcome
 
-First part of the experiment consisted in using a special substrate inside the boxes which resembles the soil properties. On 29/01/2020 both boxes were filled with water. The sensors data is visualized in the following figures.
+First part of the experiment consisted in using a special substrate inside the boxes which resembles the soil properties. On 29/01/2020 both boxes were filled with water. The sensors data is visualized in the following sections.
+
+### Common graphics
+
+![subs_temperature_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_common.png)
+![subs_temperature_common_feb7_feb9.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_common_feb7_feb9.png)
+![subs_humidity_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_common.png)
+![subs_humidity_common_feb7_feb9.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_common_feb7_feb9.png)
+![subs_sm_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_common.png)
+
+### Soil Moisture per Node
+
+![subs_sm_wisper_node.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_wisper_node.png)
+![subs_sm_esp32.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_esp32.png)
+![subs_sm_mkr1000.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_mkr1000.png)
+
+### Temperature per Sensor
+
+![subs_temperature_dht.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_dht.png)
+![subs_temperature_shs85.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_shs85.png)
+![subs_temperature_hih8121.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_hih8121.png)
+
+### Humidity per Sensor
+
+![subs_humidity_dht.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_dht.png)
+![subs_humidity_shs85.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_shs85.png)
+![subs_humidity_hih8121.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_hih8121.png)
 
 ## Data Analysis
 
