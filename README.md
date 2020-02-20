@@ -106,7 +106,7 @@ First part of the experiment consisted in using a special substrate inside the b
 
 ### Common graphics
 
-![subs_temperature_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_common.png)
+![subs_temperature_common.png](/graphics/subs_temperature_common.png)
 ![subs_temperature_common_feb7_feb9.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_common_feb7_feb9.png)
 ![subs_humidity_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_common.png)
 ![subs_humidity_common_feb7_feb9.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_common_feb7_feb9.png)
