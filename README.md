@@ -112,6 +112,8 @@ First part of the experiment consisted in using a special substrate inside the b
 ![subs_humidity_common_feb7_feb9.png](/graphics/subs_humidity_common_feb7_feb9.png)
 ![subs_sm_common.png](/graphics/subs_sm_common.png)
 
+Take heed that the samples _mkr_0_ and and _mkr_2_ are placed in the same box and _mkr_1_ is placed in different box.
+
 ### Soil Moisture per Node
 
 ![subs_sm_wisper_node.png](/graphics/subs_sm_wisper_node.png)
