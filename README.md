@@ -107,28 +107,28 @@ First part of the experiment consisted in using a special substrate inside the b
 ### Common graphics
 
 ![subs_temperature_common.png](/graphics/subs_temperature_common.png)
-![subs_temperature_common_feb7_feb9.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_common_feb7_feb9.png)
-![subs_humidity_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_common.png)
-![subs_humidity_common_feb7_feb9.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_common_feb7_feb9.png)
-![subs_sm_common.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_common.png)
+![subs_temperature_common_feb7_feb9.png](/graphics/subs_temperature_common_feb7_feb9.png)
+![subs_humidity_common.png](/graphics/subs_humidity_common.png)
+![subs_humidity_common_feb7_feb9.png](/graphics/subs_humidity_common_feb7_feb9.png)
+![subs_sm_common.png](/graphics/subs_sm_common.png)
 
 ### Soil Moisture per Node
 
-![subs_sm_wisper_node.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_wisper_node.png)
-![subs_sm_esp32.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_esp32.png)
-![subs_sm_mkr1000.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_sm_mkr1000.png)
+![subs_sm_wisper_node.png](/graphics/subs_sm_wisper_node.png)
+![subs_sm_esp32.png](/graphics/subs_sm_esp32.png)
+![subs_sm_mkr1000.png](/graphics/subs_sm_mkr1000.png)
 
 ### Temperature per Sensor
 
-![subs_temperature_dht.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_dht.png)
-![subs_temperature_shs85.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_shs85.png)
-![subs_temperature_hih8121.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_temperature_hih8121.png)
+![subs_temperature_dht.png](/graphics/subs_temperature_dht.png)
+![subs_temperature_shs85.png](/graphics/subs_temperature_shs85.png)
+![subs_temperature_hih8121.png](/graphics/subs_temperature_hih8121.png)
 
 ### Humidity per Sensor
 
-![subs_humidity_dht.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_dht.png)
-![subs_humidity_shs85.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_shs85.png)
-![subs_humidity_hih8121.png](https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc/blob/master/graphics/subs_humidity_hih8121.png)
+![subs_humidity_dht.png](/graphics/subs_humidity_dht.png)
+![subs_humidity_shs85.png](/graphics/subs_humidity_shs85.png)
+![subs_humidity_hih8121.png](/graphics/subs_humidity_hih8121.png)
 
 ## Data Analysis
 
