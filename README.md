@@ -2,7 +2,15 @@
 
 The intention of this experiment is to see the behavior of different sensors in different mediums, different ADCs from various MCUs and one external ADC, and contrast results. It is crucial to verify that sensors data will demonstrate consistent outcome to rely on the sensors in future applications.
 
-Although cheap and not certified sensors were used in the experiment, the intention is not to show the sensors' precision but rather that the modes/tendencies are similar.
+Although cheap and not certified sensors were used in the experiment, the intention is not to show the sensors' precision but rather that their modes/tendencies are similar.
+
+Three different MCUs have been used: Whisper Node AVR based on ATmega328p, Arduino MKR1000 based on SAM D21, and ESP32 Hi-Grow design. The soil moisture sensors produce analog input, thus, different ADC modules were involved with different precisions. The following table shows the of used ADC modules
+
+|                |                                           |
+|---------------:|:------------------------------------------|
+|Whisper Node:   |Internal ADC, 10 bits precision            |
+|Hi-Grow ESP32:  |Internal ADC, 12 bits precision            |
+|Arduino MKR1000:|External ADC, TI ADS1115, 16 bits precision|
 
 In the next sections sensors' connections, experiment configuration, and data outcome and analysis are revealed.
 
@@ -33,9 +41,9 @@ DHT22 and MKR1000 connection
         ~────┘     ╚═══~
 ```
 
-DHT22 and Wisper Node connection
+DHT22 and Whisper Node connection
 ```
-        DHT22       Wisper Node
+        DHT22       Whisper Node
         ~────┐     ╔═══~
           VCC├─────╢5V
          DATA├─────╢A0
@@ -53,9 +61,9 @@ DHT11 is internally wired to the ESP32, though the configuration is as following
          ~────┘     ╚═══
 ```
 
-SHS85 and HIH8121 are connected to the Wisper Node through the I2C interface.
+SHS85 and HIH8121 are connected to the Whisper Node through the I2C interface.
 ```
-   SHS85 & HIH8121  Wisper Node
+   SHS85 & HIH8121  Whisper Node
         ~────┐     ╔═══~
           VCC├─────╢5V
           SDA├─────╢D18
@@ -64,7 +72,7 @@ SHS85 and HIH8121 are connected to the Wisper Node through the I2C interface.
         ~────┘     ╚═══~
 ```
 
-SHS85 and HIH8121 are connected to the Wisper Node through the I2C interface.
+SHS85 and HIH8121 are connected to the Whisper Node through the I2C interface.
 
 ```
    SHS85 & HIH8121  MKR1000
@@ -100,23 +108,23 @@ The experiment configuration was as exposed in the next scheme. The equipment wa
               │___________________│╱               │_______________________│╱
 ```
 
-## Data Outcome
+## Data Outcome 1st part
 
-First part of the experiment consisted in using a special substrate inside the boxes which resembles the soil properties. On 29/01/2020 both boxes were filled with water. The sensors data is visualized in the following sections.
+The first part of the experiment consisted in using a special substrate inside the boxes which resembles the soil properties. On 29/01/2020 both boxes were filled with water. The substrate has been completely dry on 19/02/2020. During this period temperature, humidity and soil moisture data were recollected using different sensors. The data are visualized in the following sections.
 
 ### Common graphics
 
 ![subs_temperature_common.png](/graphics/subs_temperature_common.png)
-![subs_temperature_common_feb7_feb9.png](/graphics/subs_temperature_common_feb7_feb9.png)
+![subs_temperature_common_feb7_feb9.png](/graphics/subs_temperature_common_subset.png)
 ![subs_humidity_common.png](/graphics/subs_humidity_common.png)
-![subs_humidity_common_feb7_feb9.png](/graphics/subs_humidity_common_feb7_feb9.png)
+![subs_humidity_common_feb7_feb9.png](/graphics/subs_humidity_common_subset.png)
 ![subs_sm_common.png](/graphics/subs_sm_common.png)
 
 Take heed that the samples _mkr_0_ and and _mkr_2_ are placed in the same box and _mkr_1_ is placed in different box.
 
 ### Soil Moisture per Node
 
-![subs_sm_wisper_node.png](/graphics/subs_sm_wisper_node.png)
+![subs_sm_whisper_node.png](/graphics/subs_sm_whisper_node.png)
 ![subs_sm_esp32.png](/graphics/subs_sm_esp32.png)
 ![subs_sm_mkr1000.png](/graphics/subs_sm_mkr1000.png)
 
@@ -131,6 +139,38 @@ Take heed that the samples _mkr_0_ and and _mkr_2_ are placed in the same box an
 ![subs_humidity_dht.png](/graphics/subs_humidity_dht.png)
 ![subs_humidity_shs85.png](/graphics/subs_humidity_shs85.png)
 ![subs_humidity_hih8121.png](/graphics/subs_humidity_hih8121.png)
+
+## Data Outcome 2nd part
+
+The second part of the experiment consisted in using the **real soil** recollected near the TI building. On 20/02/2020 both boxes were filled with water (around 200ml each). The sensors data are visualized in the following sections.
+
+### Common graphics
+
+![soil_temperature_common.png](/graphics/soil_temperature_common.png)
+![soil_temperature_common_feb7_feb9.png](/graphics/soil_temperature_common_subset.png)
+![soil_humidity_common.png](/graphics/soil_humidity_common.png)
+![soil_humidity_common_feb7_feb9.png](/graphics/soil_humidity_common_subset.png)
+![soil_sm_common.png](/graphics/soil_sm_common.png)
+
+Take heed that the samples _mkr_0_ and and _mkr_2_ are placed in the same box and _mkr_1_ is placed in different box.
+
+### Soil Moisture per Node
+
+![soil_sm_whisper_node.png](/graphics/soil_sm_whisper_node.png)
+![soil_sm_esp32.png](/graphics/soil_sm_esp32.png)
+![soil_sm_mkr1000.png](/graphics/soil_sm_mkr1000.png)
+
+### Temperature per Sensor
+
+![soil_temperature_dht.png](/graphics/soil_temperature_dht.png)
+![soil_temperature_shs85.png](/graphics/soil_temperature_shs85.png)
+![soil_temperature_hih8121.png](/graphics/soil_temperature_hih8121.png)
+
+### Humidity per Sensor
+
+![soil_humidity_dht.png](/graphics/soil_humidity_dht.png)
+![soil_humidity_shs85.png](/graphics/soil_humidity_shs85.png)
+![soil_humidity_hih8121.png](/graphics/soil_humidity_hih8121.png)
 
 ## Data Analysis
 
