@@ -6,7 +6,6 @@ Although cheap and not certified sensors were used in the experiment, the intent
 
 Three different MCUs have been used: Whisper Node AVR based on ATmega328p, Arduino MKR1000 based on SAM D21, and ESP32 Hi-Grow design. The soil moisture sensors produce analog input, thus, different ADC modules were involved with different precisions. The following table shows the of used ADC modules
 
-|                |                                           |
 |---------------:|:------------------------------------------|
 |Whisper Node:   |Internal ADC, 10 bits precision            |
 |Hi-Grow ESP32:  |Internal ADC, 12 bits precision            |

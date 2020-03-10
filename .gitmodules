@@ -1,15 +1,15 @@
-[submodule "esp32"]
-	path = esp32
-	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.esp/tree/dev
-[submodule "wisper_node"]
-	path = wisper_node
-	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.wis/tree/dev
-[submodule "mkr1000"]
-	path = mkr1000
-	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.mkr/tree/dev
-[submodule "bus_protocol"]
-	path = bus_protocol
-	url = https://lorca.act.uji.es/gitlab/vrykov/bus_protocol
 [submodule "udp_server"]
 	path = udp_server
 	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.udp_server
+[submodule "mkr1000"]
+	path = mkr1000
+	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.mkr
+[submodule "whisper_node"]
+	path = whisper_node
+	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.wis
+[submodule "esp32"]
+	path = esp32
+	url = https://lorca.act.uji.es/gitlab/vrykov/sm2dsboc.esp
+[submodule "bus_protocol"]
+	path = bus_protocol
+	url = https://lorca.act.uji.es/gitlab/vrykov/bus_protocol
