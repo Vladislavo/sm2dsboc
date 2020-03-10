@@ -17,7 +17,7 @@ In the next sections sensors' connections, experiment configuration, and data ou
 
 ## Table of Contents ##
 
-[TOC]
+[[_TOC_]]
 
 ## Experiment configuration ##
 
